@@ -10,12 +10,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: bestpvp
-            repoName: box_pangtong
+          - userName: slasjh
+            repoName: X-Film
             branchName: main
-          - userName: bestpvp
-            repoName: box_wolong
-            branchName: main
+          #- userName: bestpvp
+          #  repoName: box_wolong
+           # branchName: main
     steps:
       - name: Checkout
         uses: actions/checkout@v3
